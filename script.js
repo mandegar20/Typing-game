@@ -37,6 +37,7 @@ let score = 0;
 let time = 0;
 
 function getRandomWord() {
-  return words[Math.floor(Math.random * words.length)];
+  return words[Math.floor(Math.random() * words.length)];
 }
 console.log(words.length);
+console.log(getRandomWord());
